@@ -1,4 +1,4 @@
-name: CICD Pipeline
+name: CICDAbhi Pipeline
 
 on:
   push:
@@ -18,4 +18,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
 
