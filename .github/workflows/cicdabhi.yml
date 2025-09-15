@@ -41,6 +41,7 @@ jobs:  # This is the 1st job
         run: sudo apt install gitleaks -y
       - name: gitleaks code scan
         run: gitleaks detect -r gitleaks-report.json -f json
+
         
         
         
